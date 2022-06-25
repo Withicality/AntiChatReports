@@ -1,0 +1,8 @@
+name: AntiChatReports
+version: '${project.version}'
+main: withicality.antichatreports.AntiChatReports
+api-version: 1.19
+softdepend: [ ProtocolLib ]
+authors: [ Withicality ]
+description: This plugin allows server owner to disable chat reporting from the scary 1.19.1 update
+website: http://www.itswithermc.tk
