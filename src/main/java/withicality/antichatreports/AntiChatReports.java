@@ -19,6 +19,13 @@ public final class AntiChatReports extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        if (getServer().getPluginManager().getPlugin("ProtocolLib") == null) {
+            getLogger().severe("Error: ProtocolLib is not installed.");
+            getLogger().severe("ProtocolLib is required for this plugin to function.");
+            getLogger().severe("You can download it at https://ci.dmulloy2.net/job/ProtocolLib/");
+            getPluginLoader().disablePlugin(this);
+            return;
+        }
         ProtocolManager protocolManager = ProtocolLibrary.getProtocolManager();
         protocolManager.addPacketListener(new PacketListener(this));
     }
