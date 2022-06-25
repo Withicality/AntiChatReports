@@ -6,7 +6,7 @@
 
     <groupId>withicality</groupId>
     <artifactId>AntiChatReports</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>AntiChatReports</name>
