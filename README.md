@@ -1,4 +1,5 @@
 # AntiChatReports
+## No longer maintained, found an alternative tho: [https://www.spigotmc.org/resources/no-chat-reports-spigot-1-19.102931/](https://www.spigotmc.org/resources/no-chat-reports-spigot-1-19.102931/)
 ## THIS MIGHT NOT BE WORKING BECAUSE OF THE SCARY 1.19.1 PRE RELEASE 2
 ![scary](https://media.discordapp.net/attachments/968506183994445825/994287988857110640/Screenshot_20220707-000416_Chrome.jpg)
 
